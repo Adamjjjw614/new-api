@@ -1,9 +1,9 @@
 ![Logo](https://files.catbox.moe/fetqga.jpg)
-# Xenz New APIS
+# New APIS
 
 🚀 **Simple, Clean & Powerful API System dengan Express.js**
 
-Sistem API yang modern dengan fitur auto-load modules dan auto-detect HTTP methods. Didesain dengan tema merah yang elegan dan interface yang bersih.
+Sistem API yang modern dengan fitur auto-load modules dan auto-detect HTTP methods.
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@ Sistem akan otomatis mendeteksi HTTP method berdasarkan nama function:
 ## 📁 Struktur Project
 
 ```
-xenz-new-apis/
+new-apis/
 ├── scrape/                 # Folder untuk scrape modules
 │   ├── igstalk.js         # Instagram scraping
 │   ├── kimi.js            # Kimi AI integration
@@ -38,7 +38,7 @@ xenz-new-apis/
 │   └── twitter.js         # Twitter scraping
 ├── public/                # Static files
 │   └── images/            # Background images
-├── server-simple.js       # Main server file
+├── server.js       # Main server file
 ├── package.json
 └── README.md
 ```
@@ -125,26 +125,12 @@ xenz-new-apis/
 }
 ```
 
-## 🎨 Design Features
-
-- **Glassmorphism Effects** - Efek blur dan transparansi modern
-- **Responsive Layout** - Optimal di semua device
-- **Interactive Elements** - Hover effects dan smooth transitions
-- **Clean Typography** - Font Inter untuk readability
-
 ## 🔧 Configuration
 
 ### Environment Variables
 - `PORT` - Server port (default: 3000)
-- `NODE_ENV` - Environment mode (development/production)
 
-### CORS
-CORS sudah dikonfigurasi untuk menerima request dari semua origin.
 
-## 🛠️ Development
-
-### Hot Reload
-Dalam mode development, server akan otomatis reload saat ada perubahan file di folder `scrape/`.
 
 ### Adding Dependencies
 Jika scrape module membutuhkan library tambahan:
@@ -160,32 +146,24 @@ npm install library-name
 - **fs** - File system operations
 - **path** - Path utilities
 
-## 🔒 Security Notes
-
-- Pastikan untuk validasi input pada setiap scrape function
-- Gunakan rate limiting untuk production
-- Jangan expose sensitive data dalam response
-- Pertimbangkan authentication untuk endpoint tertentu
-
 ## 📄 License
 
 MIT License - Feel free to use and modify!
 
 ---
 
-**Built with ❤️ by Xenz - Simple, Clean & Powerful**
+**Built with ❤️ by Kuroxel - Simple, Clean & Powerful**
 
 ![Logo](https://files.catbox.moe/dk0erc.jpg)
 
 
 ## 📞 Contact & Social Media
 
-Jangan ragu untuk terhubung dengan kami melalui:
+Jangan ragu untuk terhubung dengan saya melalui:
 
 - ⭐ Star this repo
 - 💬 WhatsApp Channel: [https://whatsapp.com/channel/0029VbBPPG52f3EFT7ldeT0m](https://whatsapp.com/channel/0029VbBPPG52f3EFT7ldeT0m)
 - 📱 Chat WhatsApp: [https://wa.me/6281297662535](https://wa.me/6281297662535)
-- ✈️ Chat Telegram: [t.me/kuroxel](t.me/kuroxel)
 - 📸 Instagram: [kuroxel_studio](https://www.instagram.com/kuroxel_studio)
 - 🐦 X/Twitter: [KuroxelStudio](https://twitter.com/KuroxelStudio)
 - 🐙 GitHub: [Kuroxel](https://github.com/Kuroxel)
