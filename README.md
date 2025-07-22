@@ -4,6 +4,8 @@
 
 Sistem API yang modern dengan fitur auto-load modules dan auto-detect HTTP methods. Didesain dengan tema merah yang elegan dan interface yang bersih.
 
+![Logo](https://files.catbox.moe/fetqga.jpg)
+
 ## ✨ Features
 
 - **🔄 Auto-load Modules** - Otomatis memuat semua file .js dari folder `/scrape`
