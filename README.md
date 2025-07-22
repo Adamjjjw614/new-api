@@ -1,10 +1,9 @@
+![Logo](https://files.catbox.moe/fetqga.jpg)
 # Xenz New APIS
 
 🚀 **Simple, Clean & Powerful API System dengan Express.js**
 
 Sistem API yang modern dengan fitur auto-load modules dan auto-detect HTTP methods. Didesain dengan tema merah yang elegan dan interface yang bersih.
-
-![Logo](https://files.catbox.moe/fetqga.jpg)
 
 ## ✨ Features
 
@@ -88,19 +87,17 @@ xenz-new-apis/
 
    async function getVideoInfo(params) {
      const { videoId } = params;
-     // Your scraping logic here
      return { title: 'Video Title', views: 1000000 };
    }
 
    async function searchVideos(params) {
      const { query } = params;
-     // Your search logic here
      return { videos: [] };
    }
 
    module.exports = {
-     getVideoInfo,    // Auto-detected as GET
-     searchVideos     // Auto-detected as GET
+     getVideoInfo,
+     searchVideos
    };
    ```
 
@@ -125,18 +122,15 @@ xenz-new-apis/
   "success": false,
   "creator": "Xenz",
   "error": "Error message",
-  "endpoint": "/api/twitter/stalkTwit"
 }
 ```
 
 ## 🎨 Design Features
 
-- **Modern Red Theme** - Elegan dengan gradasi merah
 - **Glassmorphism Effects** - Efek blur dan transparansi modern
 - **Responsive Layout** - Optimal di semua device
 - **Interactive Elements** - Hover effects dan smooth transitions
 - **Clean Typography** - Font Inter untuk readability
-- **Background Integration** - Custom background dengan overlay
 
 ## 🔧 Configuration
 
@@ -180,4 +174,20 @@ MIT License - Feel free to use and modify!
 ---
 
 **Built with ❤️ by Xenz - Simple, Clean & Powerful**
+
+![Logo](https://files.catbox.moe/dk0erc.jpg)
+
+
+## 📞 Contact & Social Media
+
+Jangan ragu untuk terhubung dengan kami melalui:
+
+- ⭐ Star this repo
+- 💬 WhatsApp Channel: [https://whatsapp.com/channel/0029VbBPPG52f3EFT7ldeT0m](https://whatsapp.com/channel/0029VbBPPG52f3EFT7ldeT0m)
+- 📱 Chat WhatsApp: [https://wa.me/6281297662535](https://wa.me/6281297662535)
+- ✈️ Chat Telegram: [t.me/kuroxel](t.me/kuroxel)
+- 📸 Instagram: [kuroxel_studio](https://www.instagram.com/kuroxel_studio)
+- 🐦 X/Twitter: [KuroxelStudio](https://twitter.com/KuroxelStudio)
+- 🐙 GitHub: [Kuroxel](https://github.com/Kuroxel)
+
 
